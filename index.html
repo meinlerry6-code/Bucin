@@ -1,129 +1,134 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Untuk Orang Tersayang</title>
-  <style>
-    body {
-      background-image: linear-gradient(-45deg, #ff69b4, #ff99cc, #ffb6c1, #ffc5c5, #ff69b4, #ff99cc);
-      background-size: 400% 400%;
-      animation: gradient 5s ease infinite;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    h1 {
-      color: #fff;
-      animation: pulse 12s infinite;
-    }
-    p {
-      color: #fff;
-      animation: slide-in 12s infinite;
-    }
-    .developer {
-      animation: none;
-      color: #fff;
-    }
-    img {
-      width: 100px;
-      height: 100px;
-      border: 2px solid #fff;
-      border-radius: 50%;
-      animation: heartbeat 1s infinite;
-    }
-    button {
-      background-color: #ff69b4;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      animation: bounce 2s infinite;
-    }
-    button:active {
-      transform: scale(0.9);
-    }
-    @keyframes gradient {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.1);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    @keyframes heartbeat {
-      0% {
-        transform: scale(1);
-      }
-      50% {
-        transform: scale(1.2);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
-    @keyframes bounce {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-    @keyframes slide-in {
-      0% {
-        transform: translateX(-100px);
-        opacity: 0;
-      }
-      50% {
-        transform: translateX(0);
-        opacity: 1;
-      }
-      100% {
-        transform: translateX(100px);
-        opacity: 0;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Media</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            20% {
+                background-position: 20% 50%;
+            }
+            40% {
+                background-position: 40% 50%;
+            }
+            60% {
+                background-position: 60% 50%;
+            }
+            80% {
+                background-position: 80% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+        
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            margin: 20px auto;
+        }
+        
+        h1 {
+            font-size: 14px;
+            color: #fff;
+        }
+        
+        p {
+            font-size: 14px;
+            color: #fff;
+        }
+        
+        .sosial-media {
+            margin: 20px auto;
+        }
+        
+        .sosial-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .sosial-media img {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .music-player {
+            margin: 20px auto;
+        }
+        
+        .salju {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .salju span {
+            position: absolute;
+            top: -10px;
+            background-color: #fff;
+            border-radius: 50%;
+            animation: salju 5s linear infinite;
+        }
+        
+        @keyframes salju {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Untukmu💖</h1>
-  <p>Jarak hanya melatih kita untuk lebih sabar," "Kau jauh di mata, dekat di hati," dan "Menunggumu adalah keputusan terbaik</p>
-  <img src="https://image2url.com/images/1764255942301-38a35d6e-f57a-476b-9beb-3f90fc842164.jpg" </p>"                                                                                             
-  <p>Kamu adalah segalanya bagiku 😘</p>
-  <form>
-  </form>
-  <a href="https://wa.me/6289693149789?text=Hai%20Sayang%20Aku%20Cinta%20Kamu%20💖" target="_blank">
-    <button>Kirim Pesan </button> </p>
-  </from>
-  <a
-href="https://wa.me/62859171434277?text=Min%20Mau%20Beli%20Script%20Bucin%20" target="_blank">
-    <button>Kirim Pesan Ke Admin Untuk Order Script</button>    
-  </a>
-  <footer>
-    <p class="developer">Developed with ❤️ by Volta Ghiandra Saputra
-  <footer>
-      <p class="developer">Since 2025-2026</p>
-  </footer>
-
-  <script>
-  </script>
+    <div class="salju">
+        <span style="left: 10%; width: 5px; height: 5px; animation-delay: 0s;"></span>
+        <span style="left: 20%; width: 3px; height: 3px; animation-delay: 1s;"></span>
+        <span style="left: 30%; width: 4px; height: 4px; animation-delay: 2s;"></span>
+        <span style="left: 40%; width: 2px; height: 2px; animation-delay: 3s;"></span>
+        <span style="left: 50%; width: 6px; height: 6px; animation-delay: 4s;"></span>
+        <span style="left: 60%; width: 3px; height: 3px; animation-delay: 5s;"></span>
+        <span style="left: 70%; width: 5px; height: 5px; animation-delay: 6s;"></span>
+        <span style="left: 80%; width: 4px; height: 4px; animation-delay: 7s;"></span>
+        <span style="left: 90%; width: 2px; height: 2px; animation-delay: 8s;"></span>
+    </div>
+    <div class="container">
+        <img src="aesthetic.jpg" alt="Profile Image" class="profile-image">
+        <h1>My Name is Volta Ghiandra Saputra</h1>
+        <p>Saya Adalah Developer Pengembang Website Dan Juga Aplikasi. Saya Juga Bisa Membuat Aplikasi Berbasis MOD, Dulu Saya Adalah Modder Yang Menjadikan Aplikasi WhatsApp Ori Menjadi WhatsApp GB, Bukan Hanya Itu Saja, Saya Tidak Bekerja Sendirian Saya Di Bantu Oleh Teman" Saya, Yaitu IZUKA DEV Dia Adalah Rekan Kerja Saya Yang Sudah Saya Anggap Sebagai Teman Saya Sendiri, Beberapa Saat Kemudian Saya Pindah Bidang Profesi, Saya Mempunyai Teman Baru, Yaitu AIDIL NUGROHO Dia Adalah Sebagian Dari Team Kami SEKTE SATANISME UNLIMITED ARMY AIDIL NUGROHO Ahli Seorang Ddos Keamanan Cyber Security, Nama Panggilan AIDIL NUGROHO Adalah Zay <p> Putra Dicko ialah Sosok, Pendiri SEKTE SATANISME UNLIMITED ARMY, Dia Adalah Reporting Facebook, Dikenal Sebagai Penemu Bug Celah Bahkan Memiliki Ribuan Anggota.</p>
+        <div class="sosial-media">                                                                                          
+        </div>
+        <div class="music-player">
+            <audio controls>
+                <source src="Artis.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
 </body>
 </html>
